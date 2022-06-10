@@ -1,0 +1,23 @@
+/*
+    > Finally, scroll down on this page (below the embedded code editor) to check the solution image and see if your solution matches
+
+    > If not, make sure you fix it before watching the solution video 👍 
+*/
+h1{
+    font-family: tahoma;
+    font-size: 30px;
+    color: #777777;
+    text-align: center  
+    
+  }
+  
+  ol{
+    font-family: Courier New;
+    font-size: 1.4rem;
+    color: #748493;
+  }
+  
+  .learn-more-btn {
+    background-color:#2F91FB;
+    color: white;
+  }
