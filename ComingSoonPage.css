@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'AdiHaus';
+    src: URL('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "AdiHaus";
+    src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  
+  body,html {
+    margin: 0;
+    min-width: 100%;
+    min-height: 100vh;
+  }
+  
+  body{
+    display: flex;
+  }
+  .entire-page{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  h2{
+    margin: 0;
+    font-size: 48px;
+  }
+  
+  .adidas{
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+  }
+  
+  .main{
+    margin-top: 1em;
+    background-size: cover;
+    width: 100%;
+    height:250px;
+  }
+  
+  .first{
+    color: #CD3A24;
+    text-align: center;
+    font-family: AdiHaus;
+    letter-spacing: 3px;
+    font-weight: 500;
+  }
+  
+  .soon{
+    color: #423A3A;
+    text-align: center;
+    color: #423A3A;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: adihaus;
+    margin-top: 10px;
+    
+  
+  }
+  
+  .paragraph{
+    font-family: adihaus;
+    text-align: center;
+    line-height: 3.5vh;
+    color: #333333;
+  }
+  
+  .all-content{
+    padding: 20px 30px;
+  }
+  
+  form{
+    display: flex;
+    justify-content: center;
+    margin:0%;
+  }
+  
+  input[type="text"]{
+    height: 50px;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 0 20px;  
+    font-family: adihaus;
+  }
+  
+  input[type="submit"]{
+    height:50px;
+    width: 20%;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    font-family: adihaus;
+    font-weight: 700;
+    font-size; 18px;
+    border: none;
+  }
+  
+  .desktop-image{
+    display: none;
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body{
+      background: url("https://assets.codepen.io/6060109/destop-bg.png");
+      background-size: cover;
+      
+    }
+    .main{
+      display: none;
+    }
+    .entire-page{
+      width:50%;
+    }
+    
+    .desktop-image{
+      display: block;
+      width: 50%;
+      background: url(https://assets.codepen.io/6060109/athlete-big.png);
+      background-size: cover;
+     clip-path: polygon(0 0%, 100% 0, 100% 100%, 35% 100%);
+    
+    }
+    
+    .adidas{
+    margin: 30px 30px 100px; 
+    display: block;
+  }
+    
+    .first{
+      text-align: left;
+    }
+    
+    .paragraph{
+      text-align: left;
+    }
+    
+    .soon{
+      text-align: left;
+    }
+   
+  }
+  
