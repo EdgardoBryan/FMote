@@ -72,3 +72,37 @@ var multiplyNumbers = function(num1, num2) {
      }
     return oddCount
     }
+
+    // Given a number, count how many numbers below it are multiples of 3 and 5
+
+    var sumMultiples = function(n) {
+      let threeAndFive = 0;
+      for(let i = 0; i < n ; i++) {
+        
+        if(i % 3 === 0 || i%5 === 0) {
+           threeAndFive +=i;
+        }
+      }
+      return threeAndFive
+     }
+    //  Given an array of positive and negative integers, find the number that does not have an opposite
+     var unbalancedArray = function(nums) {
+      let sum = 0
+      for (let num of nums){
+        sum += num
+      }
+      return sum
+    }
+//VowelCount
+    var countVowels = function(s) {
+  
+      // your code here
+     let vowelCount = 0
+     for(let string of s ){
+       if(string ==="a" || string === "e" || string==="i" || string==="o" || string==="u")
+         vowelCount++
+     }
+      return vowelCount
+    }
+    
+    
