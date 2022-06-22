@@ -36,3 +36,39 @@ var multiplyNumbers = function(num1, num2) {
     }
         return multiply
   }
+
+  var repeatString = function(s, n) {
+
+    // your code here
+    let newString = ""
+    for(let i = 0; n > i; i++){
+       newString += s
+    }
+    console.log(newString)
+    return newString
+  }
+
+  // Given a string, determine whether it is a palindrome (same forwards and backwards, case-sensitive)
+
+  var isPalindrome = function(str) {
+    console.log(str.split("").reverse().join())
+      // your code here
+      if(str.split('').reverse().join() === str.split('').join()){
+        return true
+      }else{
+        return false
+      }
+    }
+    
+    // Given a number, count how many odd numbers are below that number
+
+    var countOdd = function(n) {
+      // your code here
+      let oddCount = 0
+          while(n--){
+         if(n % 2 === 1){
+          oddCount++
+      }   
+     }
+    return oddCount
+    }
