@@ -10,7 +10,8 @@ body,html{
 }
 body{
  background: url("https://assets.codepen.io/6060109/ZigZag.png");
- background-size: cover;  
+ background-size: cover; 
+ display: flex; 
 }
 
 h2,h5,h6{
@@ -23,7 +24,7 @@ h2, h5{
 
 .panel{
   width: 90%;
-  min-width: 300px;
+  width: 350px;
   height: 600px;
   background-color: #ffffff;
   margin: 70px  auto;  
@@ -109,5 +110,64 @@ h2, h5{
 .ready-btn:hover{
   opacity: 0.8;
   transition: .3s ease all;
-  cursor: pointer;
+  cursor: crosshair;
 }
+
+.circle-container{
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  position: absolute;
+  left: 45%;
+  transform: x(-45%);
+  bottom: 10%; 
+}
+
+.circle{
+  width: 10px;
+  height: 10px;
+  background-color: #E0E0E0;
+  border-radius: 100%;
+  
+}
+
+.green{
+  background-color: #67BD99;
+}
+.right,.left{
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  
+  .right,.left{
+  display: block;
+  z-index: -1;
+  position: absolute;   
+}
+  .right-btn{
+    background-color:#979797;
+  margin-top: 50px 
+  } 
+  .right-left-circle{
+    bottom: 4%;
+  }
+  
+  .middle{
+    bottom: 4%;
+  }
+  
+  .right{
+    left:63%;
+    
+  }
+  .left{
+    right:64%;
+  }
+  .middle-panel{
+    height:635px;
+    margin-top:60px; 
+  }
+}
+
+
