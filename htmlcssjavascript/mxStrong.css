@@ -1,0 +1,215 @@
+/* font-family: Hellix, I've installed for you */
+*{
+    margin: 0;
+    padding:0;
+  }
+  
+  body,html{
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: Hellix;
+    text-align: center;
+  }
+  
+  .contraint{
+    max-width: 800px;
+    margin: auto;
+  }
+  .heading{
+    text-align: center;
+    font-weight: 400;
+    margin-top:20px;
+  }
+  
+  span{
+    font-weight: bold;
+  }
+  
+  .situp-guy{
+   display:block;
+   width:100%; 
+  }
+  
+  .time-strong{
+    font-weight:400;
+    letter-spacing:2px;
+    font-size:45px;
+  }
+  .lorem{
+    font-weight:100;
+    font-size: 17px
+  }
+  
+  .btn{
+    display:block;
+    color: white;
+    border-radius: 50px;
+    background-color: #4B5092;
+    padding: 15px 0;
+    margin-top: 15px;
+    width:250px;
+    margin:auto;
+    margin-top: 20px;
+  }
+  
+  .gray{
+    background-color:#E5E5E5;
+  }
+  
+  .two-people-working-out{
+    margin-top: 90px;
+    width:100%;
+  }
+  .second-background{
+    background-color:#F2F8FF;
+    height:400px;
+    position:relative;
+    width: 100%;
+  }
+  
+  .choose-loads-text{
+    text-align:left;
+    font-size: 45px;
+    font-weight:500;
+    padding-top:40px; 
+    padding-left:10px;  
+  }
+  .second-paragraph{
+    font-weight: 300;
+    line-height:25px;
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:left;
+    position:absolute;
+  }
+  
+  .empty-space{
+    height: 90px;
+    width:100%;
+    background-color:white;
+  }
+  
+  .third-panel{
+    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+    width:100%;
+    height:704px;
+  }
+  
+  .btn-white{
+    color: #436BAA;
+    background-color:white;
+  }
+  
+  .personal-trainer{
+    width:100%;
+    display: block;
+    max-height:390px;
+  }
+  
+  .bio{
+    margin-top:10px;
+    font-weight: 400;
+  }
+  
+  .paragraph-three{
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+  }
+  
+  .white-space{
+    height:60px;
+    background-color: white;
+  }
+  
+  .sections{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size:14px;
+    line-height:30px;
+  }
+  
+  .sec{
+    height:220px;
+    padding:25px;
+    border-radius: 10%;
+    background-color: gray;
+    justify-content: space-around;
+    margin: 15px
+  }
+  
+  .sec-1,.sec-4{
+    background-color:#E4F0FF;
+  }
+  
+  .sec-2, .sec-3{
+    background-color:#e6ebfe;
+  }
+  
+  h1{
+    margin-bottom: 20px
+  }
+  
+  .get-now{
+    margin-bottom: 60px;
+    display: block;  
+  }
+  
+  .border-bottom{
+    border-bottom: 1px solid black;
+  }
+  
+  .container-five{
+    height:600px;
+    background-color:#f1f7ff
+  }
+  
+  .max-2{
+    margin:0;
+  }
+  
+  ul{
+    padding-left:0;
+  }
+  
+  ul li{
+    margin:40px 0;
+    list-style: none;
+  }
+  
+  .up-to-date{
+    font-size:16px;
+  }
+  
+  .icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+  }
+  .icon{
+    margin: 10px;
+    margin-top:10px;
+  }
+  
+  .your-email{
+    display: block;
+    border: none;
+    margin: auto;
+    height:30px;
+    width:55%;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 400;
+    font-family: Hellix;
+    background:url(https://assets.codepen.io/6060109/icon-send.png) white 90% 50% no-repeat;
+    margin-top: 20px
+  }
+  
+  input::placeholder{
+    color:black
+  }
+  
