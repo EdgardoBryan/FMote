@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.App {
+  font-family: Poppins;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.container-heading {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(" https://assets.codepen.io/6060109/agency-hero-image.png");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 5px;
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.websites-right {
+  color: white;
+  margin-top: 90px;
+}
+
+.sec-boxes-2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.box {
+  background-color: red;
+  height: 150px;
+  width: 140px;
+  margin: 10px;
+  line-height: 20;
+  text-align: left;
+  color: #806c6c;
+}
+
+.box-1 {
+  background-image: url("https://assets.codepen.io/6060109/agency-service-1.png");
+  background-size: cover;
+}
+
+.box-2 {
+  background-image: url("https://assets.codepen.io/6060109/agency-service-2.png");
+  background-size: cover;
+}
+
+.box-3 {
+  background-image: url("https://assets.codepen.io/6060109/agency-service-3.png");
+  background-size: cover;
+}
+
+.our-services {
+  color: #133588;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.section-3{
+  background-color: #153588;
+  height: 250px;
+  margin-top: 100px;
+  color:white;
+  box-sizing: border-box
+}
+.sub-email{
+  padding: 20px;
+}
+
+input[type="text"]{
+  border: none;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border-bottom: 1px solid white;
+}
+
+input[type="text"]::placeholder{
+  text-align: center;
+  color: white;
+  opacity: .5;
+}
+input[type="submit"]{
+  color: #806c6c;
+  border: none;
+  border-radius: 0;
+  padding: 5px 10px;
+}
