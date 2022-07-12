@@ -1,0 +1,189 @@
+*{
+    margin; 0;
+  }
+  
+  html,body{
+    width: 100%;
+    height: 1150px;
+    background-color:#c6e3f2;
+     
+  }
+  
+  .main-container{
+    max-width: 550px;
+    height:970px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 9px;
+    display: block;
+  }
+  
+  .profile-pic{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50px;
+    margin-top:50px;
+    margin-left: 40%;
+   
+  }
+  
+  .main-container > h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;  
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .main-container > h4{
+    text-align: center;
+    color: #b0b0b0;
+    font-family: 'Inter', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 60px;
+  }
+  
+  .blue-boxes{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blue-container-one{
+    display: flex;
+    background-color: #4299ff;
+    height: 170px;
+    align-items: center;
+    
+  }
+  
+  .about{
+    margin-left:110px;
+    margin-bottom: 50px;
+  }
+  
+  .border-line{
+    height: 60px;
+    border-left: 1px solid #78B3FF;
+    margin-left: 30px; 
+  }
+  
+  .lorem{
+    padding: 26px;
+    color:white;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .header{
+    color: white;
+    font-weight: 300;
+    
+  }
+  
+  .blue-container-two{
+    background-color:#3288ed;
+    height: 200px;  
+    display:flex;
+    align-items: center;
+  }
+  
+  .br-2{
+    height: 110px;
+    margin-top: 20px;
+  }
+  
+  .recent-work{
+    margin-bottom:100px;
+    margin-left: 65px;
+  }
+  
+  li{
+    color: white;
+    list-style: none;
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+  }
+  
+  ul li:before {
+    content: '✓'; 
+    padding: 3px;
+    border-radius:90%;
+    border: 1px solid  #78B3FF;
+    margin-right: 10px;
+  }
+  .blue-container-three{
+   background-color: #277DE3;
+   height:220px; 
+   display: flex; 
+  }
+  
+  .br-3{
+    height: 110px;
+    margin-top: 20px;
+  }
+  
+  .contact{
+    margin-left: 110px;
+  }
+  
+  .links{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  a{
+    border: 1px solid #78B3FF;
+    height: 20px;
+    width: 90px;
+    border-radius: 10px;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin-left: 45px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    
+  }
+  
+  .last-card{
+    color: lightgray;
+    margin-left: 50px;
+    font-size: 13px;
+  }
+  
+  .fa-twitter{
+    margin-right: 5px;
+    color: blue;
+  }
+  
+  .facebook{
+    margin-right: 2px;
+  }
+  
+  .insta{
+    margin-right: 2px;
+  }
+  
+  .phone{
+    margin-right: 6px;
+  }
+  
+  .email{
+    margin-right: 5px;
+  }
+  
+  a:hover{
+    border: 1px solid #02CBFF;
+    color: #02CBFF;
+  }
+  
+  
+  
+  
