@@ -33,7 +33,7 @@ body {
 input[type="email"] {
   text-decoration: none;
   border: none;
-  border-bottom: 1px solid #E9E8E8;
+  border-bottom: 1px solid #e9e8e8;
   width: 300px;
   background-color: #745e5e;
   margin-bottom: 25px;
@@ -42,12 +42,41 @@ input[type="email"] {
 }
 
 input[type="email"]::placeholder {
-  color: #E9E8E8;
+  color: #e9e8e8;
 }
 
-.next-button{
+.next-button {
   padding: 6px;
   width: 24%;
-  color:#745e5e;
+  color: #745e5e;
   font-weight: 600;
+}
+
+h2 {
+  color: white;
+}
+
+.stage-2-inner {
+  width: 300px;
+}
+
+.button {
+  margin-left: 10px;
+}
+
+.button:nth-child(2),
+.button:nth-child(3) {
+  background-color: #745e5e;
+  color: white;
+  border: 1px solid white;
+}
+
+.stage-two-next-button {
+  margin-right: 53%;
+  margin-top: 30%;
+}
+
+.thank-you {
+  margin-bottom: 80%;
+  font-size: 40px;
 }
